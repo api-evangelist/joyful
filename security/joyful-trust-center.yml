@@ -1,0 +1,15 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.joyfulhealth.com/trust (301 -> Vanta-hosted trust center)
+name: Joyful Health Trust Center
+vendor: Vanta
+url: https://app.vanta.com/joyfulhealth.io/trust/2wj43ct9wbs1s08vxpfd3s
+public_page: https://www.joyfulhealth.com/trust
+status: verified
+notes: >-
+  https://www.joyfulhealth.com/trust issues a 301 redirect to a Vanta-hosted
+  trust center for the joyfulhealth.io org. The Vanta page is a client-rendered
+  SPA, so individual certification names (e.g. SOC 2, HIPAA) could not be read
+  verbatim and are intentionally NOT asserted here. Only the existence of the
+  Vanta trust center and its public entry point are recorded.
+certifications: []

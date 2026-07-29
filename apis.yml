@@ -1,8 +1,30 @@
 aid: joyful
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/joyful.png
 name: Joyful
-description: 'Joyful is a company surfaced as a portfolio company of crv and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Joyful Health provides AI-assisted revenue recovery for healthcare
+  organizations, combining automated claim investigation with expert billing
+  teams to recover unpaid and denied insurance claims. Its platform runs inside
+  an organization's existing revenue-cycle-management (RCM) systems rather than
+  replacing them, covering denial investigation and root-cause analysis, claims
+  recovery and appeals management, historical accounts-receivable (A/R)
+  assessment, payer follow-up, documentation review, and financial insight to
+  prevent future denials. The company operates a customer application at
+  app.joyfulhealth.io and maintains a Vanta-hosted trust center. Joyful is a
+  portfolio company of CRV. This profile was added to the API Evangelist network
+  as a lead; Joyful does not currently publish a public API or developer
+  program.
 url: https://raw.githubusercontent.com/api-evangelist/joyful/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Revenue Cycle Management
+- Medical Billing
+- Claims
+- Denial Management
+- Artificial Intelligence
+- Healthcare Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.joyfulhealth.com/
+- type: Blog
+  url: https://www.joyfulhealth.com/resources
+- type: Support
+  url: https://www.joyfulhealth.com/contact
+- type: SignIn
+  url: https://app.joyfulhealth.io/
+- type: PrivacyPolicy
+  url: https://www.joyfulhealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.joyfulhealth.com/terms-conditions
+- type: TrustCenter
+  url: security/joyful-trust-center.yml
+- type: DomainSecurity
+  url: security/joyful-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
